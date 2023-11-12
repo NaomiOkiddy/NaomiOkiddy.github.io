@@ -1,4 +1,32 @@
 @charset "UTF-8";
+
+
+.back-to-top-icon {
+	width: 2rem;
+	height: 2rem;
+	color: #084298;
+}
+
+.back-to-top {
+	position: fixed;
+	right: 2rem;
+	bottom: 2rem;
+	border-radius: 100%;
+	background: #dee4f6;
+	padding: 0.5rem;
+	border: none;
+	cursor: pointer;
+	opacity: 100%;
+	transition: opacity 0.5s;
+}
+
+.back-to-top:hover {
+	opacity: 60%;
+}
+
+.hidden {
+	opacity: 0%;
+}
 /*!
 * Start Bootstrap - Scrolling Nav v5.0.6 (https://startbootstrap.com/template/scrolling-nav)
 * Copyright 2013-2023 Start Bootstrap
